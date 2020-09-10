@@ -1,37 +1,34 @@
 package main
 
-import ("fmt"
+import (
 	"flag"
-	"bufio"
 	"net"
-	"strings")
-
+)
 
 type Message struct {
-	sender	int
-	message string
+	sender  int
+	message []byte
 }
 
-func handleError(err error){
-// TODO: all
-// Deal with an error event.
+func handleError(err error) {
+	// TODO: all
+	// Deal with an error event.
 }
 
-func acceptConns(ln net.Listener, conns *chan net.Conn){
-// TODO: all
-// Accept a network connection from the Listener 
-// and add it to the channel for handling connections.
+func acceptConns(ln net.Listener, conns *chan net.Conn) {
+	// TODO: all
+	// Accept a network connection from the Listener
+	// and add it to the channel for handling connections.
 }
 
-func handleClient(client net.Conn, clientid int, msgs *chan Message){
-// TODO: all
-// Read in new messages delimited by '\n's
-// Tidy up each message and add it to the messages channel, 
-// recording which client it came from.
+func handleClient(client net.Conn, clientid int, msgs *chan Message) {
+	// TODO: all
+	// Read in new messages delimited by '\n's
+	// Tidy up each message and add it to the messages channel,
+	// recording which client it came from.
 }
 
-
-func main(){
+func main() {
 	// Read in the network port we should listen on, from the commandline argument.
 	// Default to port 8030
 	portPtr := flag.String("port", ":8030", "port to listen on")
@@ -40,9 +37,9 @@ func main(){
 	//TODO Create a Listener for TCP connections on the port given above.
 
 	//Create a channel for connections
-	conns	:= make(chan net.Conn)
+	conns := make(chan net.Conn)
 	//Create a channel for messages
-	msgs	:= make(chan Message)
+	msgs := make(chan Message)
 	//Create a channel mapping IDs to connections
 	clients := make(map[int]net.Conn)
 
@@ -50,10 +47,10 @@ func main(){
 	go acceptConns(ln, &conns)
 	for {
 		select {
-			case conn:= <-conns:
-				//TODO Deal with a new connection
-			case msg := <-msgs:
-				//TODO Deal with a new message
-			}
+		case conn := <-conns:
+			//TODO Deal with a new connection
+		case msg := <-msgs:
+			//TODO Deal with a new message
+		}
 	}
 }
