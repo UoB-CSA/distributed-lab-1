@@ -1,9 +1,10 @@
 # Distributed Lab 1: Go Chat Server
 
 In this lab you will build a simple client-server chat system. To start with,
-you should follow the guide in the video to practice sending and receiving
-messages -- you should write this code yourself, and **not** use the templates
-in `skeleton`, which are there for the second part of the lab.
+you should follow the guide in this week's third Distributed Systems video to
+practice sending and receiving messages -- you should write this code yourself,
+and **not** use the templates in `skeleton`, which are there for the second part
+of the lab.
 
 
 ## Part 1: Simple Client-Server Message-Passing
