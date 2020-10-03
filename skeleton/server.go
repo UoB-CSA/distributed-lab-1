@@ -19,7 +19,7 @@ func handleError(err error) {
 
 func acceptConns(ln net.Listener, conns chan net.Conn) {
 	// TODO: all
-	// Accept a network connection from the Listener
+	// Continuously accept a network connection from the Listener
 	// and add it to the channel for handling connections.
 }
 
