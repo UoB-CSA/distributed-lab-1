@@ -9,7 +9,7 @@ import (
 
 type Message struct {
 	sender  int
-	message []byte
+	message string
 }
 
 func handleError(err error) {
@@ -43,7 +43,7 @@ func main() {
 	conns := make(chan net.Conn)
 	//Create a channel for messages
 	msgs := make(chan Message)
-	//Create a mapping IDs to connections
+	//Create a mapping of IDs to connections
 	clients := make(map[int]net.Conn)
 
 	//Start accepting connections
