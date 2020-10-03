@@ -3,6 +3,7 @@ package main
 import (
 	"flag"
 	"net"
+	"fmt"
 )
 
 func read(conn *net.Conn) {
