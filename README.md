@@ -3,7 +3,7 @@
 In this lab you will build a simple client-server chat system. To start with,
 you should follow the guide in this week's third Distributed Systems video to
 practice sending and receiving messages -- you should write this code yourself,
-and **not** use the templates in `skeleton`, which are there for the second part
+and **not** use the templates in `client` and `server`, which are there for the second part
 of the lab.
 
 
@@ -11,7 +11,7 @@ of the lab.
 
 Follow the video, creating a simple client and server that can send messages to
 each other. This is best tackled in stages. Again, you should write this code
-from scratch, as this part of the lab does not relate to the `skeleton`.  You
+from scratch, as this part of the lab does not relate to the code in `client` and `server.  You
 may want to look at the [net package](https://golang.org/pkg/net/) for parts of
 this.
 
@@ -33,7 +33,7 @@ without either component exiting or closing the connection.
 
 ## Part 2: Chat Server
 
-Using what you have learned so far on the course, fill out the `skeleton` code
+Using what you have learned so far on the course, fill out the `client` and `server` skeleton code
 to create a text-based chat system that handles multiple clients. 
 
 The **client** needs to (a) process user input and send it to the server on each
