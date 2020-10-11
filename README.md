@@ -11,7 +11,7 @@ of the lab.
 
 Follow the video, creating a simple client and server that can send messages to
 each other. This is best tackled in stages. Again, you should write this code
-from scratch, as this part of the lab does not relate to the code in `client` and `server.  You
+from scratch, as this part of the lab does not relate to the code in `client` and `server`.  You
 may want to look at the [net package](https://golang.org/pkg/net/) for parts of
 this.
 
