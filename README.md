@@ -10,8 +10,10 @@ of the lab.
 
 There are two ways to use the lab sheet, you can either:
 
-- [create a new repo from this template](https://github.com/UoB-CSA/intro-to-go-lab-2/generate) - **this is the recommended way**
-- download a [zip file](https://github.com/UoB-CSA/intro-to-go-lab-2/archive/master.zip)
+- [create a new repo from this template](https://github.com/UoB-CSA/distributed-lab-1/generate) - **this is the recommended way**
+- download a [zip file](https://github.com/UoB-CSA/distributed-lab-1/archive/master.zip)
+
+## Ratings
 
 Each question is rated to help you balance your work:
 
