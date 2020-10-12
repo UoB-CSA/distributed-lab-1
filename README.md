@@ -6,8 +6,22 @@ practice sending and receiving messages -- you should write this code yourself,
 and **not** use the templates in `skeleton`, which are there for the second part
 of the lab.
 
+## Using the lab sheet
 
-## Part 1: Simple Client-Server Message-Passing
+There are two ways to use the lab sheet, you can either:
+
+- [create a new repo from this template](https://github.com/UoB-CSA/intro-to-go-lab-2/generate) - **this is the recommended way**
+- download a [zip file](https://github.com/UoB-CSA/intro-to-go-lab-2/archive/master.zip)
+
+Each question is rated to help you balance your work:
+
+- :red_circle::white_circle::white_circle::white_circle::white_circle: - Easy, strictly necessary.
+- :red_circle::red_circle::white_circle::white_circle::white_circle: - Medium, still necessary.
+- :red_circle::red_circle::red_circle::white_circle::white_circle: - Hard, necessary if you're aiming for higher marks.
+- :red_circle::red_circle::red_circle::red_circle::white_circle: - Hard, useful for coursework extensions.
+- :red_circle::red_circle::red_circle::red_circle::red_circle: - Hard, beyond what you need for any part of the coursework.
+
+## Part 1: Simple Client-Server Message-Passing :red_circle::white_circle::white_circle::white_circle::white_circle:
 
 Follow the video, creating a simple client and server that can send messages to
 each other. This is best tackled in stages. Again, you should write this code
@@ -31,7 +45,7 @@ client, which handles and displays them.
 for input which is sent to the server and then acknowledged back to the client,
 without either component exiting or closing the connection.
 
-## Part 2: Chat Server
+## Part 2: Chat Server :red_circle::red_circle::white_circle::white_circle::white_circle:
 
 Using what you have learned so far on the course, fill out the `skeleton` code
 to create a text-based chat system that handles multiple clients. 
