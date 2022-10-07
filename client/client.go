@@ -6,11 +6,11 @@ import (
 	"fmt"
 )
 
-func read(conn *net.Conn) {
+func read(conn net.Conn) {
 	//TODO In a continuous loop, read a message from the server and display it.
 }
 
-func write(conn *net.Conn) {
+func write(conn net.Conn) {
 	//TODO Continually get input from the user and send messages to the server.
 }
 
