@@ -25,7 +25,7 @@ Each question is rated to help you balance your work:
 
 ## Part 1: Simple Client-Server Message-Passing :red_circle::white_circle::white_circle::white_circle::white_circle:
 
-Follow the video, creating a simple client and server that can send messages to
+Follow the [video](https://web.microsoftstream.com/video/1b5b7c56-7bbd-4626-8ef9-7bac57d0cb70), creating a simple client and server that can send messages to
 each other. This is best tackled in stages. Again, you should write this code
 from scratch, as this part of the lab does not relate to the code in `client` and `server`.  You
 may want to look at the [net package](https://golang.org/pkg/net/) for parts of
