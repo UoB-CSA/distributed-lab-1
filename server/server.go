@@ -53,7 +53,7 @@ func main() {
 		case conn := <-conns:
 			//TODO Deal with a new connection
 			// - assign a client ID
-			// - add the client to the clients channel
+			// - add the client to the clients map
 			// - start to asynchronously handle messages from this client
 		case msg := <-msgs:
 			//TODO Deal with a new message
